@@ -21,10 +21,9 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         stage('completed sss'){
-            steps (
+            steps {
                 sh 'completed all steps sss '
-                }
-               
+            }
         }
     }
 }
